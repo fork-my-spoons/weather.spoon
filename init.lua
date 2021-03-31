@@ -5,7 +5,7 @@ obj.__index = obj
 obj.name = "weather"
 obj.version = "1.0"
 obj.author = "Pavel Makhov"
-obj.homepage = "https://github.com/fork-my-spoons/jira-issues.spoon"
+obj.homepage = "https://fork-my-spoons.github.io/"
 obj.license = "MIT - https://opensource.org/licenses/MIT"
 
 obj.indicator = nil
@@ -85,17 +85,15 @@ local function updateMenu()
         
         table.insert(menu, {title = '-'})
         table.insert(menu, {
-            disabled = false,
-            title = 
-            (is_night and sunset_icon or sunrise_icon)
-            .. hs.styledtext.new(string.rep(' ', c))
-            .. (is_night and moon_icon or sun_icon)
-            .. hs.styledtext.new(string.rep(' ', 40 - c))
-            .. (is_night and sunrise_icon or sunset_icon)
-            .. hs.styledtext.new('\n')
-            .. hs.styledtext.new(os.date("%H:%M", s))
-            .. hs.styledtext.new(string.rep(' ', 38))
-            .. hs.styledtext.new(os.date("%H:%M", e), {color = {hex = '#ffffff'}})
+            title = (is_night and sunset_icon or sunrise_icon)
+                .. hs.styledtext.new(string.rep(' ', c))
+                .. (is_night and moon_icon or sun_icon)
+                .. hs.styledtext.new(string.rep(' ', 40 - c))
+                .. (is_night and sunrise_icon or sunset_icon)
+                .. hs.styledtext.new('\n')
+                .. hs.styledtext.new(os.date("%H:%M", s))
+                .. hs.styledtext.new(string.rep(' ', 38))
+                .. hs.styledtext.new(os.date("%H:%M", e), {color = {hex = '#ffffff'}})
         })
         obj.indicator:setMenu(menu)
 
