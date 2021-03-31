@@ -19,7 +19,7 @@ This app is using [OpenWeather](https://openweathermap.org) as the data provider
    - Homebrew:
 
       ```brew install hammerspoon --cask```
- - download [weather.spoon](https://github.com/fork-my-spoons/github-activity.spoon/releases/download/v1.0/github-activity.spoon.zip), unzip and double click on a .spoon file. It will be installed under ~/.hammerspoon/Spoons folder.
+ - download [weather.spoon](https://github.com/fork-my-spoons/weather.spoon/releases/latest/download/weather.spoon.zip), unzip and double click on a .spoon file. It will be installed under ~/.hammerspoon/Spoons folder.
  - open ~/.hammerspoon/init.lua and add the following snippet:
 
 ```lua
