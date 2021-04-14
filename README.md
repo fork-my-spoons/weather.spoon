@@ -1,5 +1,17 @@
 # Weather
 
+<p align="center">
+   <a href="https://github.com/fork-my-spoons/weather.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/weather.spoon">
+  </a>
+  <a href="https://github.com/fork-my-spoons/weather.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/weather.spoon/total">
+  </a>
+  <a href="https://github.com/fork-my-spoons/weather.spoon/releases">
+   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/fork-my-spoons/weather.spoon">
+  </a>
+</p>
+
 A menubar app which shows current weather for a given location:
 
 <p align="center">
