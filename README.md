@@ -2,11 +2,12 @@
 
 A menubar app which shows current weather for a given location:
 
-![screenshot](./screenshots/screenshot.png)
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/weather.spoon/raw/main/screenshots/screenshot.png"/>
+  <img src="https://github.com/fork-my-spoons/weather.spoon/raw/main/screenshots/screenshot2.png"/>
+</p>
 
-![screenshot](./screenshots/screenshot2.png)
-
-Whem clicked, a menu with more detailed information is shown, it also includes the sunrise and sunset times.
+When clicked, a menu with more detailed information is shown, it also includes the sunrise and sunset times.
 
 # Installation
 
